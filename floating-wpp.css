@@ -4,6 +4,7 @@
     left: 15px;
     font-size: 14px;
     transition: bottom 0.2s;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .floating-wpp .floating-wpp-button {
@@ -13,6 +14,7 @@
     transition: box-shadow 0.2s;
     cursor: pointer;
     overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .floating-wpp .floating-wpp-button img,
@@ -25,14 +27,17 @@
     left: 50%;
     transform: translate3d(-50%, -50%, 0);
     border-radius: 50%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .floating-wpp:hover {
     bottom: 17px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .floating-wpp:hover .floating-wpp-button {
     box-shadow: 1px 2px 8px rgba(60, 60, 60, 0.4);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .floating-wpp .floating-wpp-popup {
@@ -49,6 +54,7 @@
     opacity: 0;
     transition: bottom 0.1s ease-out, opacity 0.2s ease-out;
     transform-origin: bottom;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .floating-wpp .floating-wpp-popup.active {
@@ -57,6 +63,7 @@
     height: auto;
     bottom: 82px;
     opacity: 1;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .floating-wpp .floating-wpp-popup .floating-wpp-message {
@@ -66,11 +73,13 @@
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
     opacity: 0;
     transition: opacity 0.2s;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .floating-wpp .floating-wpp-popup.active .floating-wpp-message {
     opacity: 1;
     transition-delay: 0.2s;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .floating-wpp .floating-wpp-popup .floating-wpp-head {
@@ -81,6 +90,7 @@
     display: flex;
     justify-content: space-between;
     cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .floating-wpp .floating-wpp-input-message {
@@ -89,6 +99,7 @@
     padding: 0 15px;
     display: flex;
     align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .floating-wpp .floating-wpp-input-message textarea {
@@ -102,10 +113,33 @@
     font-family: inherit;
     font-size: inherit;
     resize: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .floating-wpp .floating-wpp-btn-send {
     margin-left: 12px;
     font-size: 0;
     cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.floating-wpp-avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 10px 0 10px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.floating-wpp-avatar-info {
+    color: white;
+    margin: 10px 80px 0 10px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.floating-wpp-avatar-name {
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
 }

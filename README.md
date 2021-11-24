@@ -85,3 +85,6 @@ $('#myDiv').floatingWhatsApp({
 | showOnIE            | `boolean`                                     | `true`                   | Whether to show or not the button on IE (recommended, since IE does not support WhatsApp Web).
 | size                | `string` (Any css option valid for width and height properties) | `'72px'` | The size of the button
 | backgroundColor     | Any css color `string`                        | `'#25D366'`               | The button backgrund color.
+| avatar              | Avatar img url                                | `false`                   | Your avatar image.
+| avatarName          | `string`                                      | `Jonh Doe`                | Your avatar name.
+| avatarRole          | `string`                                      | `Support`                 | Your avatar role.

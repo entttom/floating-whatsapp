@@ -1,37 +1,32 @@
-<!DOCTYPE html>
-<html lang="pt-br">
 
-<head>
-    <meta charset="UTF-8">
-    <title>Floating WhatsApp Button Demo</title>
-    <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    
+    <script>
+var tel = "+436503337475"
+var headerTitle_json = {
+  "de-DE"  :  "Chatten Sie mit uns!",
+  "en-EN"   :  "Chat with us on WhatsApp!"}
+  
+  var PopUpMsg_json = {
+  "de-DE"  :  "Hallo, wie kann ich Ihnen helfen?",
+  "en-EN"   :  "Hello, how can we help you?"}
+  
+  var message_json = {
+  "de-DE"  :  "",
+  "en-EN"   :  ""}  
+	</script>  
+ 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="floating-wpp.css">
     <script type="text/javascript" src="floating-wpp.js"></script>
-    <style>
-        body {
-            font-family: Arial, Helvetica, sans-serif
-        }
-    </style>
-</head>
+
 
 <body>
     <div id="myButton"></div>
 </body>
 
-<script type="text/javascript">
-    $(function () {
-        $('#myButton').floatingWhatsApp({
-            phone: '5491133359850',
-            popupMessage: 'Hello, how can we help you?',
-            message: "I'd like to order a pizza",
-            showPopup: true,
-            showOnIE: false,
-            headerTitle: 'Welcome!',
-            headerColor: 'crimson',
-            backgroundColor: 'crimson',
-            buttonImage: '<img src="burger.svg" />'
-        });
-    });
-</script>
+ 
+  
 
-</html>
+
